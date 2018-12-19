@@ -12,6 +12,7 @@ App({
   onLaunch: function () {
     //test
     //测试啊测试啊
+    //2333
 
 
     // 展示本地存储能力
