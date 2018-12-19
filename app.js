@@ -10,6 +10,7 @@ App({
     code: ''
   },
   onLaunch: function () {
+    //test
 
 
     // 展示本地存储能力
