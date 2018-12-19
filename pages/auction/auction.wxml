@@ -1,0 +1,9 @@
+
+<text>倒计时：{{countdown}}</text>
+<text>出价金额：{{list.auc_price}}元</text>
+<text>开始金额：{{list.start_price}}元</text>
+<text>最高金额：{{list.end_price}}元</text>
+<text>当前金额：{{list.auc_sum}}元</text>
+<button disabled="{{auction.is_auc == 1 || is_end == 0 ?'disabled':''}}" bindtap='{{is_end == 1?"auction":""}}'>{{lang}}</button>
+<text bindtap='collect' data-='{{is_collect}}'>{{lang_collect}}</text>
+

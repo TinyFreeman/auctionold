@@ -1,0 +1,5 @@
+<!--pages/order/order.wxml-->
+<view wx:for="{{order}}">
+<text>{{item.order_num}}</text>
+</view>
+

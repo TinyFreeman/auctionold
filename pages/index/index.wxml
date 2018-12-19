@@ -1,0 +1,12 @@
+<swiper indicator-dots="true" autoplay="true">
+  <block wx:for="{{banner}}">
+    <swiper-item>
+      <image src="{{imgUrl}}{{item.img}}"  width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="container">
+  <text>授权成功</text>
+  <text bindtap='auction'>竞拍</text>
+   <text bindtap='order'>我的订单</text>
+</view>

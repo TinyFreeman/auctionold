@@ -1,0 +1,5 @@
+  <block wx:if="{{userInfo==''}}">
+  <view class='mengban' style='margin:0 auto;'>
+   <button class='shouquan' open-type="getUserInfo" bindgetuserinfo="autho">登录</button>
+  </view>
+  </block>

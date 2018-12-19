@@ -1,0 +1,9 @@
+<!--pages/register/register.wxml-->
+<form bindsubmit="userSubmit">
+<input placeholder="学号" name="num" type='text' value='' />
+<input placeholder="班级" name="class" type='text' value='' />
+<input placeholder="身份证" name="identity" type='text' value='' />
+<input placeholder="手机号" name="tel" type='text' value='' />
+<input placeholder="真实姓名" name="realname" type='text' value='' />
+<button formType="submit">提交</button>
+</form>
