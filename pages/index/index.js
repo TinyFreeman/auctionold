@@ -119,4 +119,6 @@ Page({
   onShareAppMessage: function () {
 
   }
+
+	//测试git提交
 })
