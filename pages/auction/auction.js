@@ -258,4 +258,6 @@ Page({
   onShareAppMessage: function () {
 
   }
+
+  //两个同时提交
 })
